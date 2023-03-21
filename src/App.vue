@@ -10,7 +10,7 @@ export default {
     }
   },
   mounted() {
-    fetch('https://raw.githubusercontent.com/ThiagoRazor/thiago-links/main/src/data/socials.json')
+    fetch('https://raw.githubusercontent.com/ThiagoRazor/thiago-tree/main/src/data/socials.json')
       .then(res => res.json())
       .then(res => this.services = res)
       .catch(e => console.log(e))
