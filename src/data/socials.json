@@ -1,0 +1,17 @@
+[    
+    {        
+        "title": "Portfólio Web",
+        "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/public/logo.png",        
+        "href": "https://thiagooliveiradev.vercel.app"    
+    },       
+    {        
+        "title": "Github",        
+        "img": "https://img.icons8.com/nolan/256/github.png",        
+        "href": "https://github.com/ThiagoRazor"    
+    },
+    {
+        "title": "Linkedin",
+        "img": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+        "href":"https://www.linkedin.com/in/thiago-oliveira-5a171426a/"
+    } 
+]
