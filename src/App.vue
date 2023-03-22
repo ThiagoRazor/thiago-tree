@@ -1,23 +1,3 @@
-<script setup>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-</script>
-<script>
-export default {
-  data() {
-    return {
-      services: null,
-    }
-  },
-  mounted() {
-    fetch('https://raw.githubusercontent.com/ThiagoRazor/thiago-tree/main/src/data/socials.json')
-      .then(res => res.json())
-      .then(res => this.services = res)
-      .catch(e => console.log(e))
-  },
-}
-</script>
-
 <template>
   <header>
     <Header />
@@ -25,4 +5,13 @@ export default {
   <main>
     <Main />
   </main>
+  <footer class=" w-full absolute bottom-0">
+    <Footer />
+  </footer>
 </template>
+
+<script setup>
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
+</script>
